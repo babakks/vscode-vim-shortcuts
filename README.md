@@ -31,7 +31,7 @@ Hopefully, nothing would change with your existing shortcuts. Anyway, you can al
 
 ## Manual configuration
 
-Want to manually set the shortcuts? Just open [this][gist] Gist and follow the instructions at the top of the file:
+Want to manually set the shortcuts? Just open [this][gist] Gist and follow the instructions at the top of the file.
 
 ## See also
 
