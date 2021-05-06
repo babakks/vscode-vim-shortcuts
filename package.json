@@ -2,6 +2,7 @@
 	"name": "vscode-vim-shortcuts",
 	"displayName": "Semi-Vim Shortcuts",
 	"description": "A simple semi-Vim keybinding extension for VS Code.",
+	"publisher": "babakks",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.40.0"
