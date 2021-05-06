@@ -4,31 +4,241 @@
 	"description": "A simple semi-Vim keybinding extension for VS Code.",
 	"version": "0.0.1",
 	"engines": {
-		"vscode": "^1.55.0"
+		"vscode": "^1.40.0"
 	},
 	"categories": [
-		"Other"
+		"Keymaps"
 	],
 	"activationEvents": [
-		"onCommand:vscode-vim-shortcuts.helloWorld"
+		"onStartupFinished"
 	],
-	"main": "./dist/extension.js",
+	"main": "./out/extension.js",
 	"contributes": {
+		"keybindings": [
+			{
+				"key": "cmd+ctrl+shift+space",
+				"command": "deleteRight"
+			},
+			{
+				"key": "cmd+ctrl+shift+alt+space",
+				"command": "deleteWordRight"
+			},
+			{
+				"key": "cmd+ctrl+space",
+				"command": "deleteLeft"
+			},
+			{
+				"key": "cmd+ctrl+alt+space",
+				"command": "deleteWordLeft"
+			},
+			{
+				"key": "cmd+ctrl+j",
+				"command": "cursorDown",
+				"when": "textInputFocus || editorFocus"
+			},
+			{
+				"key": "cmd+ctrl+j",
+				"command": "history.showNext",
+				"when": "historyNavigationEnabled && historyNavigationWidget"
+			},
+			{
+				"key": "cmd+ctrl+j",
+				"command": "keybindings.editor.focusKeybindings",
+				"when": "inKeybindings && inKeybindingsSearch"
+			},
+			{
+				"key": "cmd+ctrl+j",
+				"command": "list.focusDown",
+				"when": "listFocus && !inputFocus"
+			},
+			{
+				"key": "cmd+ctrl+j",
+				"command": "notifications.focusNextToast",
+				"when": "notificationFocus && notificationToastsVisible"
+			},
+			{
+				"key": "cmd+ctrl+j",
+				"command": "outline.focusDownHighlighted",
+				"when": "outlineFiltered && outlineFocused"
+			},
+			{
+				"key": "cmd+ctrl+j",
+				"command": "selectNextSuggestion",
+				"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+			},
+			{
+				"key": "cmd+ctrl+j",
+				"command": "settings.action.focusSettingsFile",
+				"when": "inSettingsSearch && !suggestWidgetVisible"
+			},
+			{
+				"key": "cmd+ctrl+j",
+				"command": "settings.action.focusSettingsFromSearch",
+				"when": "inSettingsSearch && !suggestWidgetVisible"
+			},
+			{
+				"key": "cmd+ctrl+j",
+				"command": "showNextParameterHint",
+				"when": "editorTextFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+			},
+			{
+				"key": "cmd+ctrl+j",
+				"command": "workbench.action.interactivePlayground.arrowDown",
+				"when": "interactivePlaygroundFocus && !editorTextFocus"
+			},
+			{
+				"key": "cmd+ctrl+k",
+				"command": "cursorUp",
+				"when": "textInputFocus"
+			},
+			{
+				"key": "cmd+ctrl+k",
+				"command": "history.showPrevious",
+				"when": "historyNavigationEnabled && historyNavigationWidget"
+			},
+			{
+				"key": "cmd+ctrl+k",
+				"command": "list.focusUp",
+				"when": "listFocus && !inputFocus"
+			},
+			{
+				"key": "cmd+ctrl+k",
+				"command": "notifications.focusPreviousToast",
+				"when": "notificationFocus && notificationToastsVisible"
+			},
+			{
+				"key": "cmd+ctrl+k",
+				"command": "outline.focusUpHighlighted",
+				"when": "outlineFiltered && outlineFocused"
+			},
+			{
+				"key": "cmd+ctrl+k",
+				"command": "selectPrevSuggestion",
+				"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+			},
+			{
+				"key": "cmd+ctrl+k",
+				"command": "showPrevParameterHint",
+				"when": "editorTextFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+			},
+			{
+				"key": "cmd+ctrl+k",
+				"command": "workbench.action.interactivePlayground.arrowUp",
+				"when": "interactivePlaygroundFocus && !editorTextFocus"
+			},
+			{
+				"key": "cmd+ctrl+h",
+				"command": "cursorLeft",
+				"when": "textInputFocus"
+			},
+			{
+				"key": "cmd+ctrl+h",
+				"command": "breadcrumbs.focusPrevious",
+				"when": "breadcrumbsActive && breadcrumbsVisible"
+			},
+			{
+				"key": "cmd+ctrl+h",
+				"command": "list.collapse",
+				"when": "listFocus && !inputFocus"
+			},
+			{
+				"key": "cmd+ctrl+h",
+				"command": "notification.collapse",
+				"when": "notificationFocus"
+			},
+			{
+				"key": "cmd+ctrl+l",
+				"command": "cursorRight",
+				"when": "textInputFocus"
+			},
+			{
+				"key": "cmd+ctrl+l",
+				"command": "breadcrumbs.focusNext",
+				"when": "breadcrumbsActive && breadcrumbsVisible"
+			},
+			{
+				"key": "cmd+ctrl+l",
+				"command": "list.expand",
+				"when": "listFocus && !inputFocus"
+			},
+			{
+				"key": "cmd+ctrl+l",
+				"command": "notification.expand",
+				"when": "notificationFocus"
+			},
+			{
+				"key": "cmd+ctrl+shift+h",
+				"command": "cursorLeftSelect",
+				"when": "editorTextFocus || textInputFocus || inputFocus || terminalFocus"
+			},
+			{
+				"key": "cmd+ctrl+shift+j",
+				"command": "cursorDownSelect",
+				"when": "editorTextFocus || textInputFocus || inputFocus || terminalFocus"
+			},
+			{
+				"key": "cmd+ctrl+shift+k",
+				"command": "cursorUpSelect",
+				"when": "editorTextFocus || textInputFocus || inputFocus || terminalFocus"
+			},
+			{
+				"key": "cmd+ctrl+shift+l",
+				"command": "cursorRightSelect",
+				"when": "editorTextFocus || textInputFocus || inputFocus || terminalFocus"
+			},
+			{
+				"key": "ctrl+alt+0",
+				"command": "cursorHome",
+				"when": "editorTextFocus || textInputFocus || inputFocus || terminalFocus"
+			},
+			{
+				"key": "ctrl+alt+4",
+				"command": "cursorEnd",
+				"when": "editorTextFocus || textInputFocus || inputFocus || terminalFocus"
+			},
+			{
+				"key": "ctrl+alt+shift+0",
+				"command": "cursorHomeSelect",
+				"when": "editorTextFocus || textInputFocus || inputFocus || terminalFocus"
+			},
+			{
+				"key": "ctrl+alt+shift+4",
+				"command": "cursorEndSelect",
+				"when": "editorTextFocus || textInputFocus || inputFocus || terminalFocus"
+			},
+			{
+				"key": "cmd+ctrl+alt+l",
+				"command": "cursorWordEndRight",
+				"when": "editorTextFocus || textInputFocus || inputFocus || terminalFocus"
+			},
+			{
+				"key": "cmd+ctrl+alt+h",
+				"command": "cursorWordEndLeft",
+				"when": "editorTextFocus || textInputFocus || inputFocus || terminalFocus"
+			},
+			{
+				"key": "cmd+ctrl+alt+shift+l",
+				"command": "cursorWordEndRightSelect",
+				"when": "editorTextFocus || textInputFocus || inputFocus || terminalFocus"
+			},
+			{
+				"key": "cmd+ctrl+alt+shift+h",
+				"command": "cursorWordEndLeftSelect",
+				"when": "editorTextFocus || textInputFocus || inputFocus || terminalFocus"
+			}
+		],
 		"commands": [
 			{
-				"command": "vscode-vim-shortcuts.helloWorld",
-				"title": "Hello World"
+				"command": "vscode-vim-shortcuts.activate",
+				"title": "Semi-Vim Shortcuts: Activate"
 			}
 		]
 	},
 	"scripts": {
-		"vscode:prepublish": "npm run package",
-		"compile": "webpack",
-		"watch": "webpack --watch",
-		"package": "webpack --mode production --devtool hidden-source-map",
-		"test-compile": "tsc -p ./",
-		"test-watch": "tsc -watch -p ./",
-		"pretest": "npm run test-compile && npm run lint",
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
 		"lint": "eslint src --ext ts",
 		"test": "node ./out/test/runTest.js"
 	},

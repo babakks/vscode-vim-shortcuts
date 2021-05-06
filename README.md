@@ -1,70 +1,42 @@
-# vscode-vim-shortcuts README
+# Semi-Vim Shortcuts for VS Code
 
-This is the README for your extension "vscode-vim-shortcuts". After writing up a brief description, we recommend including the following sections.
+This simple extension enables some basic movement shortcuts of Vim in your VS Code environment.
 
-## Features
+Hopefully, nothing would change with your existing shortcuts. Anyway, you can always disable the extension using the Extensions view (`ctrl`+`shift`+`X`).
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## Shortcuts
 
-For example if there is an image subfolder under your extension project workspace:
+| Action                 | Shortcut    | New shortcut                 |
+| ---------------------- | ----------- | ---------------------------- |
+| Cursor/item left       | `⬅️`         | `ctrl` `cmd` `h`             |
+| Cursor/item down       | `⬇️`         | `ctrl` `cmd` `j`             |
+| Cursor/item up         | `⬆️`         | `ctrl` `cmd` `k`             |
+| Cursor/item right      | `➡️`         | `ctrl` `cmd` `l`             |
+| Word left              | `ctrl` `⬅️`  | `ctrl` `cmd` `alt` `h`       |
+| Word down              | `ctrl` `⬇️`  | `ctrl` `cmd` `alt` `j`       |
+| Word up                | `ctrl` `⬆️`  | `ctrl` `cmd` `alt` `k`       |
+| Word right             | `ctrl` `➡️`  | `ctrl` `cmd` `alt` `l`       |
+| Move to line beginning | `home`      | `ctrl` `alt` `0`             |
+| Move to line end       | `end`       | `ctrl` `alt` `4`             |
+| Delete previous        | `backspace` | `ctrl` `cmd` `space`         |
+| Delete next            | `del`       | `ctrl` `cmd` `shift` `space` |
 
-\!\[feature X\]\(images/feature-x.png\)
+👍 You can also use these shortcuts on file explorer, sidebar lists/trees (e.g., find in files or source control,) auto-completion lists and breadcrumbs.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+👍 Hold `shift` and/or `alt` keys with these shortcuts to select text or move by word.
 
-## Requirements
+👍 Hold `alt` keys with delete next/previous shortcuts to delete by word.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+👍 To use shortcuts on the command palette lists, you need to first press `tab` key to focus on the list.
 
-## Extension Settings
+## Manual configuration
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+Want to manually set the shortcuts? Just open [this][gist] Gist and follow the instructions at the top of the file:
 
-For example:
+## See also
 
-This extension contributes the following settings:
+* ["Basic Vim Shortcuts in VS Code"][blog] on `DEV.to`
+* [Manual configuration guide][gist] on `gist.github.com`
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+[blog]: https://dev.to/babakks/basic-vim-shortcuts-in-vs-code-i62
+[gist]: https://gist.github.com/babakks/cc30aeee2e2342ea22cd6b76f76f65b6
