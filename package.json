@@ -3,6 +3,10 @@
 	"displayName": "Semi-Vim Shortcuts",
 	"description": "A simple semi-Vim keybinding extension for VS Code.",
 	"publisher": "babakks",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/babakks/vscode-vim-shortcuts"
+	},
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.40.0"
