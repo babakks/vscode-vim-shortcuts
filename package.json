@@ -239,6 +239,14 @@
 			}
 		]
 	},
+	"keywords": [
+		"vim",
+		"shortcut",
+		"keybinding",
+		"productivity",
+		"vscode",
+		"simplicity"
+	],
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
