@@ -7,7 +7,7 @@
 		"type": "git",
 		"url": "https://github.com/babakks/vscode-vim-shortcuts"
 	},
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"engines": {
 		"vscode": "^1.40.0"
 	},
@@ -17,6 +17,7 @@
 	"activationEvents": [
 		"onStartupFinished"
 	],
+	"markdown": "github",
 	"main": "./out/extension.js",
 	"contributes": {
 		"keybindings": [
@@ -240,9 +241,12 @@
 		]
 	},
 	"keywords": [
+		"semi",
 		"vim",
+		"vi",
 		"shortcut",
 		"keybinding",
+		"keyboard",
 		"productivity",
 		"vscode",
 		"simplicity"
