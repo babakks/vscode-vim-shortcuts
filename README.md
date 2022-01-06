@@ -2,32 +2,32 @@
 
 This simple extension enables some basic movement shortcuts of Vim in your VS Code environment.
 
-Hopefully, nothing would change with your existing shortcuts. Anyway, you can always disable the extension using the Extensions view (`ctrl`+`shift`+`X`).
+Hopefully, nothing would change with your existing shortcuts. Anyway, you can always disable the extension using the Extensions view (`Ctrl`+`Shift`+`X`).
 
 ## Shortcuts
 
-| Action                 | Shortcut    | New shortcut                 |
-| ---------------------- | ----------- | ---------------------------- |
-| Cursor/item left       | `⬅️`         | `ctrl` `cmd` `h`             |
-| Cursor/item down       | `⬇️`         | `ctrl` `cmd` `j`             |
-| Cursor/item up         | `⬆️`         | `ctrl` `cmd` `k`             |
-| Cursor/item right      | `➡️`         | `ctrl` `cmd` `l`             |
-| Word left              | `ctrl` `⬅️`  | `ctrl` `cmd` `alt` `h`       |
-| Word down              | `ctrl` `⬇️`  | `ctrl` `cmd` `alt` `j`       |
-| Word up                | `ctrl` `⬆️`  | `ctrl` `cmd` `alt` `k`       |
-| Word right             | `ctrl` `➡️`  | `ctrl` `cmd` `alt` `l`       |
-| Move to line beginning | `home`      | `ctrl` `alt` `0`             |
-| Move to line end       | `end`       | `ctrl` `alt` `4`             |
-| Delete previous        | `backspace` | `ctrl` `cmd` `space`         |
-| Delete next            | `del`       | `ctrl` `cmd` `shift` `space` |
+| Action                 | Shortcut       | New shortcut                 |
+| ---------------------- | -------------- | ---------------------------- |
+| Cursor/item left       | `Left`         | `Ctrl`+`Cmd`+`h`             |
+| Cursor/item down       | `Down`         | `Ctrl`+`Cmd`+`j`             |
+| Cursor/item up         | `Up`           | `Ctrl`+`Cmd`+`k`             |
+| Cursor/item right      | `Right`        | `Ctrl`+`Cmd`+`l`             |
+| Word left              | `Ctrl`+`Left`  | `Ctrl`+`Cmd`+`Alt`+`h`       |
+| Word down              | `Ctrl`+`Down`  | `Ctrl`+`Cmd`+`Alt`+`j`       |
+| Word up                | `Ctrl`+`Up`    | `Ctrl`+`Cmd`+`Alt`+`k`       |
+| Word right             | `Ctrl`+`Right` | `Ctrl`+`Cmd`+`Alt`+`l`       |
+| Move to line beginning | `Home`         | `Ctrl`+`Alt`+`0`             |
+| Move to line end       | `End`          | `Ctrl`+`Alt`+`4`             |
+| Delete previous        | `Backspace`    | `Ctrl`+`Cmd`+`Space`         |
+| Delete next            | `Del`          | `Ctrl`+`Cmd`+`Shift`+`Space` |
 
 👍 You can also use these shortcuts on file explorer, sidebar lists/trees (e.g., find in files or source control,) auto-completion lists and breadcrumbs.
 
-👍 Hold `shift` and/or `alt` keys with these shortcuts to select text or move by word.
+👍 Hold `Shift` and/or `Alt` keys with these shortcuts to select text or move by word.
 
-👍 Hold `alt` keys with delete next/previous shortcuts to delete by word.
+👍 Hold `Alt` keys with delete next/previous shortcuts to delete by word.
 
-👍 To use shortcuts on the command palette lists, you need to first press `tab` key to focus on the list.
+👍 To use shortcuts on the command palette lists, you need to first press `Tab` key to focus on the list.
 
 ## Manual configuration
 
