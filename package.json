@@ -19,6 +19,7 @@
 	],
 	"markdown": "github",
 	"main": "./out/extension.js",
+	"icon": "images/icon.png",
 	"contributes": {
 		"keybindings": [
 			{
