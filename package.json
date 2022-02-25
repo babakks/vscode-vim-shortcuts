@@ -7,7 +7,7 @@
 		"type": "git",
 		"url": "https://github.com/babakks/vscode-vim-shortcuts"
 	},
-	"version": "0.0.9",
+	"version": "0.0.10",
 	"engines": {
 		"vscode": "^1.40.0"
 	},
@@ -19,6 +19,7 @@
 	],
 	"markdown": "github",
 	"main": "./out/extension.js",
+	"icon": "images/icon.png",
 	"contributes": {
 		"keybindings": [
 			{
