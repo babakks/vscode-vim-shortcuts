@@ -20,6 +20,10 @@ Hopefully, nothing would change with your existing shortcuts. Anyway, you can al
 | Move to line end       | `End`          | `Ctrl`+`Alt`+`4`             |
 | Delete previous        | `Backspace`    | `Ctrl`+`Cmd`+`Space`         |
 | Delete next            | `Del`          | `Ctrl`+`Cmd`+`Shift`+`Space` |
+| Page down              | `PageDown`     | `Ctrl`+`Cmd`+`f`             |
+| Page down              | `PageDown`     | `Ctrl`+`Cmd`+`d`             |
+| Page up                | `PageUp`       | `Ctrl`+`Cmd`+`b`             |
+| Page up                | `PageUp`       | `Ctrl`+`Cmd`+`u`             |
 
 👍 You can also use these shortcuts on file explorer, sidebar lists/trees (e.g., find in files or source control,) auto-completion lists and breadcrumbs.
 
