@@ -232,6 +232,106 @@
 				"key": "cmd+ctrl+alt+shift+h",
 				"command": "cursorWordEndLeftSelect",
 				"when": "editorTextFocus || textInputFocus || inputFocus || terminalFocus"
+			},
+			{
+				"key": "cmd+ctrl+f",
+				"command": "cursorPageDown",
+				"when": "textInputFocus || editorFocus"
+			},
+			{
+				"key": "cmd+ctrl+f",
+				"command": "list.focusPageDown",
+				"when": "listFocus && !inputFocus"
+			},
+			{
+				"key": "cmd+ctrl+f",
+				"command": "selectNextPageSuggestion",
+				"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+			},
+			{
+				"key": "cmd+ctrl+f",
+				"command": "workbench.action.interactivePlayground.pageDown",
+				"when": "interactivePlaygroundFocus && !editorTextFocus"
+			},
+			{
+				"key": "cmd+ctrl+shift+f",
+				"command": "cursorPageDownSelect",
+				"when": "textInputFocus || editorFocus"
+			},
+			{
+				"key": "cmd+ctrl+d",
+				"command": "cursorPageDown",
+				"when": "textInputFocus || editorFocus"
+			},
+			{
+				"key": "cmd+ctrl+d",
+				"command": "list.focusPageDown",
+				"when": "listFocus && !inputFocus"
+			},
+			{
+				"key": "cmd+ctrl+d",
+				"command": "workbench.action.interactivePlayground.pageDown",
+				"when": "interactivePlaygroundFocus && !editorTextFocus"
+			},
+			{
+				"key": "cmd+ctrl+d",
+				"command": "selectNextPageSuggestion",
+				"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+			},
+			{
+				"key": "cmd+ctrl+shift+d",
+				"command": "cursorPageDownSelect",
+				"when": "textInputFocus || editorFocus"
+			},
+			{
+				"key": "cmd+ctrl+b",
+				"command": "cursorPageUp",
+				"when": "textInputFocus || editorFocus"
+			},
+			{
+				"key": "cmd+ctrl+b",
+				"command": "list.focusPageUp",
+				"when": "listFocus && !inputFocus"
+			},
+			{
+				"key": "cmd+ctrl+b",
+				"command": "selectPrevPageSuggestion",
+				"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+			},
+			{
+				"key": "cmd+ctrl+b",
+				"command": "workbench.action.interactivePlayground.pageUp",
+				"when": "interactivePlaygroundFocus && !editorTextFocus"
+			},
+			{
+				"key": "cmd+ctrl+shift+b",
+				"command": "cursorPageUpSelect",
+				"when": "textInputFocus || editorFocus"
+			},
+			{
+				"key": "cmd+ctrl+u",
+				"command": "cursorPageUp",
+				"when": "textInputFocus || editorFocus"
+			},
+			{
+				"key": "cmd+ctrl+u",
+				"command": "list.focusPageUp",
+				"when": "listFocus && !inputFocus"
+			},
+			{
+				"key": "cmd+ctrl+u",
+				"command": "selectPrevPageSuggestion",
+				"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+			},
+			{
+				"key": "cmd+ctrl+u",
+				"command": "workbench.action.interactivePlayground.pageUp",
+				"when": "interactivePlaygroundFocus && !editorTextFocus"
+			},
+			{
+				"key": "cmd+ctrl+shift+u",
+				"command": "cursorPageUpSelect",
+				"when": "textInputFocus || editorFocus"
 			}
 		],
 		"commands": [
