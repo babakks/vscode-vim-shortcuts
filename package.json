@@ -361,7 +361,9 @@
 		"keyboard",
 		"productivity",
 		"vscode",
-		"simplicity"
+		"simplicity",
+		"focus",
+		"attention"
 	],
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
