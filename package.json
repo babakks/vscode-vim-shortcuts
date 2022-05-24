@@ -23,6 +23,16 @@
 	"contributes": {
 		"keybindings": [
 			{
+				"key": "ctrl+cmd+shift+g",
+				"command": "cursorBottom",
+				"when": "textInputFocus || editorFocus"
+			},
+			{
+				"key": "ctrl+cmd+g ctrl+cmd+g",
+				"command": "cursorTop",
+				"when": "textInputFocus || editorFocus"
+			},
+			{
 				"key": "cmd+ctrl+shift+space",
 				"command": "deleteRight"
 			},
