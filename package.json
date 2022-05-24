@@ -7,7 +7,7 @@
 		"type": "git",
 		"url": "https://github.com/babakks/vscode-vim-shortcuts"
 	},
-	"version": "0.0.11",
+	"version": "0.0.12",
 	"engines": {
 		"vscode": "^1.40.0"
 	},
@@ -22,6 +22,16 @@
 	"icon": "images/icon.png",
 	"contributes": {
 		"keybindings": [
+			{
+				"key": "ctrl+cmd+shift+g",
+				"command": "cursorBottom",
+				"when": "textInputFocus || editorFocus"
+			},
+			{
+				"key": "ctrl+cmd+g ctrl+cmd+g",
+				"command": "cursorTop",
+				"when": "textInputFocus || editorFocus"
+			},
 			{
 				"key": "cmd+ctrl+shift+space",
 				"command": "deleteRight"
@@ -351,7 +361,9 @@
 		"keyboard",
 		"productivity",
 		"vscode",
-		"simplicity"
+		"simplicity",
+		"focus",
+		"attention"
 	],
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
