@@ -23,6 +23,32 @@
 	"contributes": {
 		"keybindings": [
 			{
+				"key": "ctrl+cmd+w l",
+				"command":"workbench.action.nextEditor"
+			},
+			{
+				"key": "ctrl+cmd+w h",
+				"command":"workbench.action.previousEditor"
+			},
+			{
+				"key": "ctrl+cmd+w j",
+				"command":"workbench.action.focusBelowGroup"
+			},
+			{
+				"key": "ctrl+cmd+w k",
+				"command":"workbench.action.focusAboveGroup"
+			},		
+			{
+				"key": "ctrl+cmd+w l",
+				"command":"workbench.action.terminal.focusNext",
+				"when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+			},
+			{
+				"key": "ctrl+cmd+w h",
+				"command":"workbench.action.terminal.focusPrevious",
+				"when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+			},
+			{
 				"key": "ctrl+cmd+shift+g",
 				"command": "cursorBottom",
 				"when": "textInputFocus || editorFocus"
