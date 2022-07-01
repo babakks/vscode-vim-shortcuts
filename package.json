@@ -7,7 +7,7 @@
 		"type": "git",
 		"url": "https://github.com/babakks/vscode-vim-shortcuts"
 	},
-	"version": "0.0.12",
+	"version": "0.0.13",
 	"engines": {
 		"vscode": "^1.40.0"
 	},
@@ -22,6 +22,32 @@
 	"icon": "images/icon.png",
 	"contributes": {
 		"keybindings": [
+			{
+				"key": "ctrl+cmd+w l",
+				"command":"workbench.action.nextEditor"
+			},
+			{
+				"key": "ctrl+cmd+w h",
+				"command":"workbench.action.previousEditor"
+			},
+			{
+				"key": "ctrl+cmd+w j",
+				"command":"workbench.action.focusBelowGroup"
+			},
+			{
+				"key": "ctrl+cmd+w k",
+				"command":"workbench.action.focusAboveGroup"
+			},		
+			{
+				"key": "ctrl+cmd+w l",
+				"command":"workbench.action.terminal.focusNext",
+				"when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+			},
+			{
+				"key": "ctrl+cmd+w h",
+				"command":"workbench.action.terminal.focusPrevious",
+				"when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+			},
 			{
 				"key": "ctrl+cmd+shift+g",
 				"command": "cursorBottom",
