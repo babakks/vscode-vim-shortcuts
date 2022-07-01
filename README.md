@@ -6,26 +6,32 @@ Hopefully, nothing would change with your existing shortcuts. Anyway, you can al
 
 ## Shortcuts
 
-| Action                 | Shortcut       | New shortcut                      |
-| ---------------------- | -------------- | --------------------------------- |
-| Cursor/item left       | `Left`         | `Ctrl`+`Cmd`+`h`                  |
-| Cursor/item down       | `Down`         | `Ctrl`+`Cmd`+`j`                  |
-| Cursor/item up         | `Up`           | `Ctrl`+`Cmd`+`k`                  |
-| Cursor/item right      | `Right`        | `Ctrl`+`Cmd`+`l`                  |
-| Word left              | `Ctrl`+`Left`  | `Ctrl`+`Cmd`+`Alt`+`h`            |
-| Word down              | `Ctrl`+`Down`  | `Ctrl`+`Cmd`+`Alt`+`j`            |
-| Word up                | `Ctrl`+`Up`    | `Ctrl`+`Cmd`+`Alt`+`k`            |
-| Word right             | `Ctrl`+`Right` | `Ctrl`+`Cmd`+`Alt`+`l`            |
-| Move to line beginning | `Home`         | `Ctrl`+`Alt`+`0`                  |
-| Move to line end       | `End`          | `Ctrl`+`Alt`+`4`                  |
-| Delete previous        | `Backspace`    | `Ctrl`+`Cmd`+`Space`              |
-| Delete next            | `Del`          | `Ctrl`+`Cmd`+`Shift`+`Space`      |
-| Page down              | `PageDown`     | `Ctrl`+`Cmd`+`f`                  |
-| Page down              | `PageDown`     | `Ctrl`+`Cmd`+`d`                  |
-| Page up                | `PageUp`       | `Ctrl`+`Cmd`+`b`                  |
-| Page up                | `PageUp`       | `Ctrl`+`Cmd`+`u`                  |
-| Top                    | `Ctrl`+`Home`  | `Ctrl`+`Cmd`+`g` `Ctrl`+`Cmd`+`g` |
-| Bottom                 | `Ctrl`+`End`   | `Ctrl`+`Shift`+`Cmd`+`g`          |
+| Action                 | Shortcut          | New shortcut                      |
+| ---------------------- | ----------------- | --------------------------------- |
+| Cursor/item left       | `Left`            | `Ctrl`+`Cmd`+`h`                  |
+| Cursor/item down       | `Down`            | `Ctrl`+`Cmd`+`j`                  |
+| Cursor/item up         | `Up`              | `Ctrl`+`Cmd`+`k`                  |
+| Cursor/item right      | `Right`           | `Ctrl`+`Cmd`+`l`                  |
+| Word left              | `Ctrl`+`Left`     | `Ctrl`+`Cmd`+`Alt`+`h`            |
+| Word down              | `Ctrl`+`Down`     | `Ctrl`+`Cmd`+`Alt`+`j`            |
+| Word up                | `Ctrl`+`Up`       | `Ctrl`+`Cmd`+`Alt`+`k`            |
+| Word right             | `Ctrl`+`Right`    | `Ctrl`+`Cmd`+`Alt`+`l`            |
+| Move to line beginning | `Home`            | `Ctrl`+`Alt`+`0`                  |
+| Move to line end       | `End`             | `Ctrl`+`Alt`+`4`                  |
+| Delete previous        | `Backspace`       | `Ctrl`+`Cmd`+`Space`              |
+| Delete next            | `Del`             | `Ctrl`+`Cmd`+`Shift`+`Space`      |
+| Page down              | `PageDown`        | `Ctrl`+`Cmd`+`f`                  |
+| Page down              | `PageDown`        | `Ctrl`+`Cmd`+`d`                  |
+| Page up                | `PageUp`          | `Ctrl`+`Cmd`+`b`                  |
+| Page up                | `PageUp`          | `Ctrl`+`Cmd`+`u`                  |
+| Top                    | `Ctrl`+`Home`     | `Ctrl`+`Cmd`+`g` `Ctrl`+`Cmd`+`g` |
+| Bottom                 | `Ctrl`+`End`      | `Ctrl`+`Shift`+`Cmd`+`g`          |
+| Next editor            | `Ctrl`+`PageDown` | `Ctrl`+`Cmd`+`w` l                |
+| Previous editor        | `Ctrl`+`PageUp`   | `Ctrl`+`Cmd`+`w` h                |
+| Focus bottom group     | -                 | `Ctrl`+`Cmd`+`w` j                |
+| Previous editor        | -                 | `Ctrl`+`Cmd`+`w` k                |
+| Next terminal          | `Ctrl`+`PageDown` | `Ctrl`+`Cmd`+`w` l                |
+| Previous terminal      | `Ctrl`+`PageUp`   | `Ctrl`+`Cmd`+`w` h                |
 
 👍 You can also use these shortcuts on file explorer, sidebar lists/trees (e.g., find in files or source control,) auto-completion lists and breadcrumbs.
 
