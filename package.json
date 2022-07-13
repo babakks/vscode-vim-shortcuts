@@ -19,6 +19,16 @@
 	"contributes": {
 		"keybindings": [
 			{
+				"key": "ctrl+cmd+k",
+				"command": "history.showPrevious",
+				"when": "historyNavigationBackwardsEnabled && historyNavigationWidgetFocus && !suggestWidgetVisible"
+			},
+			{
+				"key": "ctrl+cmd+j",
+				"command": "history.showNext",
+				"when": " historyNavigationBackwardsEnabled && historyNavigationWidgetFocus && !suggestWidgetVisible"
+			},
+			{
 				"key": "ctrl+cmd+w l",
 				"command":"workbench.action.nextEditor"
 			},
