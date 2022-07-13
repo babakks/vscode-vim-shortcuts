@@ -1,5 +1,14 @@
 # Change Log
 
+
+## 0.0.16
+
+- Added debug console history navigation.
+
+## 0.0.15
+
+- Enabled as a web/browser extension.
+
 ## 0.0.13
 
 - Added next/previous editor and above/bottom editor group navigation.
