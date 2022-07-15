@@ -4,9 +4,13 @@ This simple extension enables some basic movement shortcuts of Vim in your VS Co
 
 Hopefully, nothing would change with your existing shortcuts. Anyway, you can always disable the extension using the Extensions view (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd>).
 
+See the simple navigations in this screen capture:
+
+![Navigation](iamges/../images/capture-navigation.gif)
+
 ## Shortcuts
 
-| Action                          | Shortcut                            | New shortcut                                                                            |
+| Action                          | Shortcut                            | New alternative shortcut                                                                |
 | ------------------------------- | ----------------------------------- | --------------------------------------------------------------------------------------- |
 | Cursor/item left                | <kbd>Left</kbd>                     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>H</kbd>                                             |
 | Cursor/item down                | <kbd>Down</kbd>                     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>J</kbd>                                             |
@@ -42,6 +46,16 @@ Hopefully, nothing would change with your existing shortcuts. Anyway, you can al
 👍 Hold <kbd>Alt</kbd> keys with delete next/previous shortcuts to delete by word.
 
 👍 To use shortcuts on the command palette lists, you need to first press <kbd>Tab</kbd> key to focus on the list.
+
+## Screen Captures
+
+### Word navigation
+
+![Word navigation](images/capture-word-navigation.gif)
+
+### Delete/Backspace
+
+![Deletion](images/capture-deletion.gif)
 
 ## Manual configuration
 
