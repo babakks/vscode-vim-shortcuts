@@ -6,7 +6,7 @@ Hopefully, nothing would change with your existing shortcuts. Anyway, you can al
 
 See the simple navigations in this screen capture:
 
-![Navigation](images/capture-navigation.gif)
+![Navigation](images/capture/navigation.gif)
 
 ## Shortcuts
 
@@ -46,16 +46,6 @@ See the simple navigations in this screen capture:
 👍 Hold <kbd>Alt</kbd> keys with delete next/previous shortcuts to delete by word.
 
 👍 To use shortcuts on the command palette lists, you need to first press <kbd>Tab</kbd> key to focus on the list.
-
-## Screen Captures
-
-### Word navigation
-
-![Word navigation](images/capture-word-navigation.gif)
-
-### Delete/Backspace
-
-![Deletion](images/capture-deletion.gif)
 
 ## Manual configuration
 
