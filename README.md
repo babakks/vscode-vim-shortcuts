@@ -6,7 +6,7 @@ Hopefully, nothing would change with your existing shortcuts. Anyway, you can al
 
 See the simple navigations in this screen capture:
 
-![Navigation](iamges/../images/capture-navigation.gif)
+![Navigation](images/capture-navigation.gif)
 
 ## Shortcuts
 
