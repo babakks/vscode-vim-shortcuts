@@ -10,36 +10,38 @@ See the simple navigations in this screen capture:
 
 ## Shortcuts
 
-| Action                          | Shortcut                            | New alternative shortcut                                                                      |
-| ------------------------------- | ----------------------------------- | --------------------------------------------------------------------------------------------- |
-| Cursor/item left                | <kbd>Left</kbd>                     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>H</kbd>                                                   |
-| Cursor/item down                | <kbd>Down</kbd>                     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>J</kbd>                                                   |
-| Cursor/item up                  | <kbd>Up</kbd>                       | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>K</kbd>                                                   |
-| Cursor/item right               | <kbd>Right</kbd>                    | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>L</kbd>                                                   |
-| Word left                       | <kbd>Ctrl</kbd>+<kbd>Left</kbd>     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Alt</kbd>+<kbd>H</kbd>                                    |
-| Word down                       | <kbd>Ctrl</kbd>+<kbd>Down</kbd>     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Alt</kbd>+<kbd>J</kbd>                                    |
-| Word up                         | <kbd>Ctrl</kbd>+<kbd>Up</kbd>       | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Alt</kbd>+<kbd>K</kbd>                                    |
-| Word right                      | <kbd>Ctrl</kbd>+<kbd>Right</kbd>    | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Alt</kbd>+<kbd>L</kbd>                                    |
-| Move to line beginning          | <kbd>Home</kbd>                     | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>0</kbd>                                                   |
-| Move to line end                | <kbd>End</kbd>                      | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>4</kbd>                                                   |
-| Delete previous                 | <kbd>Backspace</kbd>                | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Space</kbd>                                               |
-| Delete next                     | <kbd>Del</kbd>                      | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>Space</kbd>                              |
-| Page down                       | <kbd>PageDown</kbd>                 | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd>                                                   |
-| Page down                       | <kbd>PageDown</kbd>                 | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>D</kbd>                                                   |
-| Page up                         | <kbd>PageUp</kbd>                   | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>B</kbd>                                                   |
-| Page up                         | <kbd>PageUp</kbd>                   | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>U</kbd>                                                   |
-| Top                             | <kbd>Ctrl</kbd>+<kbd>Home</kbd>     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>G</kbd>, then <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>G</kbd> |
-| Bottom                          | <kbd>Ctrl</kbd>+<kbd>End</kbd>      | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>G</kbd>                                  |
-| Next editor                     | <kbd>Ctrl</kbd>+<kbd>PageDown</kbd> | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>L</kbd>                                |
-|                                 |                                     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd> |
-| Previous editor                 | <kbd>Ctrl</kbd>+<kbd>PageUp</kbd>   | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>H</kbd>                                |
-| Focus bottom editor group       | -                                   | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>J</kbd>                                |
-| Focus top editor group          | -                                   | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>K</kbd>                                |
-| Next terminal                   | <kbd>Ctrl</kbd>+<kbd>PageDown</kbd> | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>L</kbd>                                |
-|                                 |                                     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd> |
-| Previous terminal               | <kbd>Ctrl</kbd>+<kbd>PageUp</kbd>   | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>H</kbd>                                |
-| Debug console history: Previous | <kbd>Up</kbd>                       | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>K</kbd>                                                   |
-| Debug console history: Next     | <kbd>Down</kbd>                     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>J</kbd>                                                   |
+| Action                          | Shortcut                            | New alternative shortcut                                                   |
+| ------------------------------- | ----------------------------------- | -------------------------------------------------------------------------- |
+| Cursor/item left                | <kbd>Left</kbd>                     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>H</kbd>                                |
+| Cursor/item down                | <kbd>Down</kbd>                     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>J</kbd>                                |
+| Cursor/item up                  | <kbd>Up</kbd>                       | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>K</kbd>                                |
+| Cursor/item right               | <kbd>Right</kbd>                    | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>L</kbd>                                |
+| Word left                       | <kbd>Ctrl</kbd>+<kbd>Left</kbd>     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Alt</kbd>+<kbd>H</kbd>                 |
+| Word down                       | <kbd>Ctrl</kbd>+<kbd>Down</kbd>     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Alt</kbd>+<kbd>J</kbd>                 |
+| Word up                         | <kbd>Ctrl</kbd>+<kbd>Up</kbd>       | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Alt</kbd>+<kbd>K</kbd>                 |
+| Word right                      | <kbd>Ctrl</kbd>+<kbd>Right</kbd>    | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Alt</kbd>+<kbd>L</kbd>                 |
+| Move to line beginning          | <kbd>Home</kbd>                     | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>0</kbd>                                |
+| Move to line end                | <kbd>End</kbd>                      | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>4</kbd>                                |
+| Delete previous                 | <kbd>Backspace</kbd>                | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Space</kbd>                            |
+| Delete next                     | <kbd>Del</kbd>                      | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>Space</kbd>           |
+| Page down                       | <kbd>PageDown</kbd>                 | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd>                                |
+| Page down                       | <kbd>PageDown</kbd>                 | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>D</kbd>                                |
+| Page up                         | <kbd>PageUp</kbd>                   | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>B</kbd>                                |
+| Page up                         | <kbd>PageUp</kbd>                   | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>U</kbd>                                |
+| Top                             | <kbd>Ctrl</kbd>+<kbd>Home</kbd>     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>G</kbd> (press twice)                  |
+| Bottom                          | <kbd>Ctrl</kbd>+<kbd>End</kbd>      | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Cmd</kbd>+<kbd>G</kbd>               |
+| Next editor                     | <kbd>Ctrl</kbd>+<kbd>PageDown</kbd> | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>L</kbd>             |
+|                                 |                                     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd> (press twice)                  |
+| Previous editor                 | <kbd>Ctrl</kbd>+<kbd>PageUp</kbd>   | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>H</kbd>             |
+|                                 |                                     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>W</kbd> (press twice) |
+| Focus bottom editor group       | -                                   | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>J</kbd>             |
+| Focus top editor group          | -                                   | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>K</kbd>             |
+| Next terminal                   | <kbd>Ctrl</kbd>+<kbd>PageDown</kbd> | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>L</kbd>             |
+|                                 |                                     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd> (press twice)                  |
+| Previous terminal               | <kbd>Ctrl</kbd>+<kbd>PageUp</kbd>   | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>H</kbd>             |
+|                                 |                                     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>W</kbd> (press twice) |
+| Debug console history: Previous | <kbd>Up</kbd>                       | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>K</kbd>                                |
+| Debug console history: Next     | <kbd>Down</kbd>                     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>J</kbd>                                |
 
 👍 You can also use these shortcuts on file explorer, sidebar lists/trees (e.g., find in files or source control,) auto-completion lists and breadcrumbs.
 
