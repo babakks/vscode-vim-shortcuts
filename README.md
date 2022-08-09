@@ -33,8 +33,8 @@ See the simple navigations in this screen capture:
 | Next editor                     | <kbd>Ctrl</kbd>+<kbd>PageDown</kbd> | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>L</kbd>                                |
 |                                 |                                     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd> |
 | Previous editor                 | <kbd>Ctrl</kbd>+<kbd>PageUp</kbd>   | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>H</kbd>                                |
-| Focus bottom group              | -                                   | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>J</kbd>                                |
-| Previous editor                 | -                                   | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>K</kbd>                                |
+| Focus bottom editor group       | -                                   | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>J</kbd>                                |
+| Focus top editor group          | -                                   | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>K</kbd>                                |
 | Next terminal                   | <kbd>Ctrl</kbd>+<kbd>PageDown</kbd> | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>L</kbd>                                |
 |                                 |                                     | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd> |
 | Previous terminal               | <kbd>Ctrl</kbd>+<kbd>PageUp</kbd>   | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>W</kbd>, then <kbd>H</kbd>                                |
