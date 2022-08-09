@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.21
+
+- Added another alternative shortcut for previous editor/terminal.
+
 ## 0.0.20
 
 - Added another alternative shortcut for next editor/terminal.
