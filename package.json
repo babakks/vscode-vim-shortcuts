@@ -41,6 +41,10 @@
 				"command":"workbench.action.previousEditor"
 			},
 			{
+				"key": "ctrl+cmd+shift+w ctrl+cmd+shift+w",
+				"command":"workbench.action.previousEditor"
+			},
+			{
 				"key": "ctrl+cmd+w j",
 				"command":"workbench.action.focusBelowGroup"
 			},
@@ -60,6 +64,11 @@
 			},
 			{
 				"key": "ctrl+cmd+w h",
+				"command":"workbench.action.terminal.focusPrevious",
+				"when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+			},
+			{
+				"key": "ctrl+cmd+shift+w ctrl+cmd+shift+w",
 				"command":"workbench.action.terminal.focusPrevious",
 				"when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
 			},
