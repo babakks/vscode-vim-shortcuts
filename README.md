@@ -1,6 +1,6 @@
 # Semi-Vim Shortcuts for VS Code
 
-This simple extension enables new basic, but very handy, shortcuts much like Vim's in your VS Code environment. With these new shortcuts, your hands just need to remain in **Main Focus Area** in the figure below.
+This simple extension enables new basic, but very handy, shortcuts much like Vim's in your VS Code environment. With these new shortcuts, your hands just need to remain in the **Main Focus Area** in the figure below.
 
 ![Layout](images/keyboard.png)
 
