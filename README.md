@@ -1,14 +1,17 @@
 # Semi-Vim Shortcuts for VS Code
 
-This simple extension enables some basic movement shortcuts of Vim in your VS Code environment.
+This simple extension enables new basic, but very handy, shortcuts much like Vim's in your VS Code environment. With these new shortcuts, your hands just need to remain in **Main Focus Area** in the figure below.
 
-Hopefully, nothing would change with your existing shortcuts. Anyway, you can always disable the extension using the Extensions view (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd>).
+![Layout](images/keyboard.png)
 
 See the simple navigations in this screen capture:
 
 ![Navigation](images/capture/navigation.gif)
 
 ## Shortcuts
+
+🍎 *Nothing would change with your existing shortcuts. These are just new ones that is added to your environment settings. Anyway, you can always disable the extension using the Extensions view (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd>).*
+
 
 | Action                          | Shortcut                            | New alternative shortcut                                                   |
 | ------------------------------- | ----------------------------------- | -------------------------------------------------------------------------- |
