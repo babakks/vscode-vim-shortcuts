@@ -17,6 +17,11 @@
 	"markdown": "github",
 	"icon": "images/icon.png",
 	"main": "out/extension.js",
+	"activationEvents": [
+		"onStartupFinished",
+		"onCommand:vscode-vim-shortcuts.insertInEditor",
+		"onCommand:vscode-vim-shortcuts.insertInTerminal"
+	],
 	"contributes": {
 		"keybindings": [
 			{
