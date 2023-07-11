@@ -27,6 +27,8 @@ See the simple navigations in this screen capture:
 | Move to line end                | <kbd>End</kbd>                      | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>4</kbd>                                |
 | Delete previous                 | <kbd>Backspace</kbd>                | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Space</kbd>                            |
 | Delete next                     | <kbd>Del</kbd>                      | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>Space</kbd>           |
+| New line                        | <kbd>Enter</kbd>                    | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>M</kbd>                                |
+| Escape/cancel                   | <kbd>Escape</kbd>                   | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>[</kbd>                               |
 | Page down                       | <kbd>PageDown</kbd>                 | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>F</kbd>                                |
 | Page down                       | <kbd>PageDown</kbd>                 | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>D</kbd>                                |
 | Page up                         | <kbd>PageUp</kbd>                   | <kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>B</kbd>                                |
