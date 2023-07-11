@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.23
+
+- Added the alternative for *Enter* and *Escape* keys.
+
 ## 0.0.21
 
 - Added another alternative shortcut for previous editor/terminal.
