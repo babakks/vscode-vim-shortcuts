@@ -16,8 +16,116 @@
 	],
 	"markdown": "github",
 	"icon": "images/icon.png",
+	"main": "out/extension.js",
 	"contributes": {
 		"keybindings": [
+			{
+				"key": "ctrl+cmd+m",
+				"command": "vscode-vim-shortcuts.insertInEditor",
+				"args": "\n",
+				"when": "editorTextFocus"
+			},
+			{
+				"key": "ctrl+cmd+m",
+				"command": "vscode-vim-shortcuts.insertInTerminal",
+				"args": "\n",
+				"when": "terminalFocus"
+			},
+			{
+				"key": "ctrl+cmd+[",
+				"command": "editor.action.cancelSelectionAnchor",
+				"when": "editorTextFocus && selectionAnchorSet"
+			},
+			{
+				"key": "ctrl+cmd+[",
+				"command": "editor.action.escapeFocusHover",
+				"when": "editorHoverFocused"
+			},
+			{
+				"key": "ctrl+cmd+[",
+				"command": "notebook.cell.quitEdit",
+				"when": "inputFocus && notebookEditorFocused && !editorHasMultipleSelections && !editorHasSelection && !editorHoverVisible"
+			},
+			{
+				"key": "ctrl+cmd+[",
+				"command": "notebook.cell.quitEdit",
+				"when": "notebookEditorFocused && notebookOutputFocused"
+			},
+			{
+				"key": "ctrl+cmd+[",
+				"command": "editor.action.inlineSuggest.hide",
+				"when": "inlineSuggestionVisible"
+			},
+			{
+				"key": "ctrl+cmd+[",
+				"command": "breadcrumbs.selectEditor",
+				"when": "breadcrumbsActive && breadcrumbsVisible"
+			},
+			{
+				"key": "ctrl+cmd+[",
+				"command": "cancelLinkedEditingInput",
+				"when": "LinkedEditingInputVisible && editorTextFocus"
+			},
+			{
+				"key": "ctrl+cmd+[",
+				"command": "cancelRenameInput",
+				"when": "editorFocus && renameInputVisible"
+			},
+			{
+				"key": "ctrl+cmd+[",
+				"command": "cancelSelection",
+				"when": "editorHasSelection && textInputFocus"
+			},
+			{
+				"key": "ctrl+cmd+[",
+				"command": "closeBreakpointWidget",
+				"when": "breakpointWidgetVisible && textInputFocus"
+			},
+			{
+				"key": "ctrl+cmd+[",
+				"command": "closeFindWidget",
+				"when": "editorFocus && findWidgetVisible && !isComposing"
+			},
+			{
+				"key": "ctrl+cmd+[",
+				"command": "closeMarkersNavigation",
+				"when": "editorFocus && markersNavigationVisible"
+			},
+			{
+				"key": "ctrl+cmd+[",
+				"command": "closeParameterHints",
+				"when": "editorFocus && parameterHintsVisible"
+			},
+			{
+				"key": "ctrl+cmd+[",
+				"command": "editor.action.selectEditor",
+				"when": "stickyScrollFocused"
+			},
+			{
+				"key": "ctrl+cmd+[",
+				"command": "hideCodeActionWidget",
+				"when": "codeActionMenuVisible"
+			},
+			{
+				"key": "ctrl+cmd+[",
+				"command": "hideSuggestWidget",
+				"when": "suggestWidgetVisible && textInputFocus"
+			},
+			{
+				"key": "ctrl+cmd+[",
+				"command": "leaveSnippet",
+				"when": "editorTextFocus && inSnippetMode"
+			},
+			{
+				"key": "ctrl+cmd+[",
+				"command": "removeSecondaryCursors",
+				"when": "editorHasMultipleSelections && textInputFocus"
+			},
+			{
+				"key": "ctrl+cmd+[",
+				"command": "workbench.action.closeQuickOpen",
+				"when": "inQuickOpen"
+			},
 			{
 				"key": "ctrl+cmd+k",
 				"command": "history.showPrevious",
@@ -30,46 +138,46 @@
 			},
 			{
 				"key": "ctrl+cmd+w l",
-				"command":"workbench.action.nextEditor"
+				"command": "workbench.action.nextEditor"
 			},
 			{
 				"key": "ctrl+cmd+w ctrl+cmd+w",
-				"command":"workbench.action.nextEditor"
+				"command": "workbench.action.nextEditor"
 			},
 			{
 				"key": "ctrl+cmd+w h",
-				"command":"workbench.action.previousEditor"
+				"command": "workbench.action.previousEditor"
 			},
 			{
 				"key": "ctrl+cmd+shift+w ctrl+cmd+shift+w",
-				"command":"workbench.action.previousEditor"
+				"command": "workbench.action.previousEditor"
 			},
 			{
 				"key": "ctrl+cmd+w j",
-				"command":"workbench.action.focusBelowGroup"
+				"command": "workbench.action.focusBelowGroup"
 			},
 			{
 				"key": "ctrl+cmd+w k",
-				"command":"workbench.action.focusAboveGroup"
-			},		
+				"command": "workbench.action.focusAboveGroup"
+			},
 			{
 				"key": "ctrl+cmd+w l",
-				"command":"workbench.action.terminal.focusNext",
+				"command": "workbench.action.terminal.focusNext",
 				"when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
 			},
 			{
 				"key": "ctrl+cmd+w ctrl+cmd+w",
-				"command":"workbench.action.terminal.focusNext",
+				"command": "workbench.action.terminal.focusNext",
 				"when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
 			},
 			{
 				"key": "ctrl+cmd+w h",
-				"command":"workbench.action.terminal.focusPrevious",
+				"command": "workbench.action.terminal.focusPrevious",
 				"when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
 			},
 			{
 				"key": "ctrl+cmd+shift+w ctrl+cmd+shift+w",
-				"command":"workbench.action.terminal.focusPrevious",
+				"command": "workbench.action.terminal.focusPrevious",
 				"when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
 			},
 			{
@@ -396,8 +504,12 @@
 		],
 		"commands": [
 			{
-				"command": "vscode-vim-shortcuts.activate",
-				"title": "Semi-Vim Shortcuts: Activate"
+				"command": "vscode-vim-shortcuts.insertInEditor",
+				"title": "Semi-Vim Shortcuts: Insert in Editor"
+			},
+			{
+				"command": "vscode-vim-shortcuts.insertInTerminal",
+				"title": "Semi-Vim Shortcuts: Insert in Terminal"
 			}
 		]
 	},
