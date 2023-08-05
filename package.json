@@ -26,9 +26,24 @@
 		"keybindings": [
 			{
 				"key": "ctrl+cmd+m",
+				"command": "acceptSelectedSuggestion",
+				"when": "acceptSuggestionOnEnter && suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && suggestionMakesTextEdit && textInputFocus"
+			},
+			{
+				"key": "ctrl+cmd+m",
+				"command": "list.select",
+				"when": "listFocus && !inputFocus"
+			},
+			{
+				"key": "ctrl+cmd+m",
+				"command": "explorer.openAndPassFocus",
+				"when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsFolder && !inputFocus"
+			},
+			{
+				"key": "ctrl+cmd+m",
 				"command": "vscode-vim-shortcuts.insertInEditor",
 				"args": "\n",
-				"when": "editorTextFocus"
+				"when": "editorTextFocus && !suggestWidgetVisible"
 			},
 			{
 				"key": "ctrl+cmd+m",
