@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.0.26
+
+- Added the alternative for *Delete* and *Backspace* keys.
+- Context support improvements.
+
 ## 0.0.23
 
 - Added the alternative for *Enter* and *Escape* keys.
