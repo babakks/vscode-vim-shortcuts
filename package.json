@@ -7,7 +7,7 @@
 		"type": "git",
 		"url": "https://github.com/babakks/vscode-vim-shortcuts"
 	},
-	"version": "0.0.25",
+	"version": "0.0.26",
 	"engines": {
 		"vscode": "^1.40.0"
 	},
@@ -147,6 +147,26 @@
 				"when": "inQuickOpen"
 			},
 			{
+				"key": "ctrl+cmd+[",
+				"command": "hideCodeActionWidget",
+				"when": "codeActionMenuVisible"
+			},
+			{
+				"key": "ctrl+cmd+m",
+				"command": "acceptSelectedCodeAction",
+				"when": "codeActionMenuVisible"
+			},
+			{
+				"key": "ctrl+cmd+k",
+				"command": "selectPrevCodeAction",
+				"when": "codeActionMenuVisible"
+			},
+			{
+				"key": "ctrl+cmd+j",
+				"command": "selectNextCodeAction",
+				"when": "codeActionMenuVisible"
+			},
+			{
 				"key": "ctrl+cmd+k",
 				"command": "history.showPrevious",
 				"when": "historyNavigationBackwardsEnabled && historyNavigationWidgetFocus && !suggestWidgetVisible"
@@ -227,9 +247,17 @@
 				"command": "deleteWordLeft"
 			},
 			{
+				"key": "cmd+ctrl+x",
+				"command": "deleteRight"
+			},
+			{
+				"key": "cmd+ctrl+shift+x",
+				"command": "deleteLeft"
+			},
+			{
 				"key": "cmd+ctrl+j",
 				"command": "cursorDown",
-				"when": "textInputFocus || editorFocus"
+				"when": "!codeActionMenuVisible && (textInputFocus || editorFocus)"
 			},
 			{
 				"key": "cmd+ctrl+j",
@@ -284,7 +312,7 @@
 			{
 				"key": "cmd+ctrl+k",
 				"command": "cursorUp",
-				"when": "textInputFocus"
+				"when": "!codeActionMenuVisible && (textInputFocus || editorFocus)"
 			},
 			{
 				"key": "cmd+ctrl+k",
