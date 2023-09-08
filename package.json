@@ -227,6 +227,14 @@
 				"command": "deleteWordLeft"
 			},
 			{
+				"key": "cmd+ctrl+x",
+				"command": "deleteRight"
+			},
+			{
+				"key": "cmd+ctrl+shift+x",
+				"command": "deleteLeft"
+			},
+			{
 				"key": "cmd+ctrl+j",
 				"command": "cursorDown",
 				"when": "textInputFocus || editorFocus"
